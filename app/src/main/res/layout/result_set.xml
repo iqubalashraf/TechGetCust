@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back3">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TECHNICIAN - DETAILS"
+        android:textSize="27sp"
+        android:textColor="#ff0000"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/techDetails"
+        android:text="Tech Details"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/techDetails"
+        android:layout_marginTop="30dp"
+        android:text="Book Technician"
+        android:onClick="bookTechnician"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/techDetails"
+        android:text="Show On map"
+        android:layout_alignParentRight="true"
+        android:onClick="showOnMap"/>
+</RelativeLayout>
